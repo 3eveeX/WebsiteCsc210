@@ -1,0 +1,84 @@
+ .dropdown{
+                position: relative;
+                display: inline-block;
+
+            }
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: #6D8F72;
+                min-width: 100px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
+            .dropdown-content a {
+                color: #6DC279;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            .dropdown-content a:hover {
+                background-color: #4D5C4F
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            .dropdown:hover .dropbtn {
+                background-color: grey;
+            }
+            h1{
+                color:#F5587D
+            }
+             p{
+                margin-left: 110px;
+                color:#58F570;
+            }
+
+            table, th, td{
+                border: 1px solid #F5587D;
+                color:#58F570
+            }
+            .red{
+                color: red;
+            }
+            .blue{
+                color:blue;
+            }
+            .green{
+                color: green;
+            }
+            .yellow{
+                color:goldenrod;
+            }
+            .black{
+                background-color: white;
+                color: black;
+            }
+             .white{
+                background-color: black;
+                color: white;
+            }
+            .silver{
+                color:gray;
+            }
+            .purple{
+                color:blueviolet;
+            }
+            .sectioner{
+                column-span: 3;
+                border: 0;
+                text-align:center;
+            }
+             img {
+                display: block;
+                margin-left: 70px;
+            }
+            body{
+                background-image: url("../images/BluePokemon.jpg");
+                background-size: 100% 100%;
+                font-family:'Times New Roman', Times, serif;
+                width: 700px;
+            }
+            ol, ul, li{
+                color:#58F570;
+            }

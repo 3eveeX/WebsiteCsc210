@@ -1,0 +1,83 @@
+ .dropdown{
+                position: relative;
+                display: inline-block;
+
+            }
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: #371C7B;
+                min-width: 100px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
+            .dropdown-content a {
+                color: #A09D7F;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            .dropdown-content a:hover {
+                background-color: #9471F4
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            .dropdown:hover .dropbtn {
+                background-color: grey;
+            }
+            h1{
+                color:#8F81B5
+            }
+             p{
+                margin-left: 110px;
+                color:#F5EA71;
+            }
+
+            table, th, td{
+                border: 1px solid #686375;
+                color:#F5EA71
+            }
+            .red{
+                color: red;
+            }
+            .blue{
+                color:blue;
+            }
+            .green{
+                color: green;
+            }
+            .yellow{
+                color:goldenrod;
+            }
+            .black{
+                background-color: white;
+                color: black;
+            }
+            .white{
+                background-color: black;
+                color: white;
+            }
+            .silver{
+                color:gray;
+            }
+            .purple{
+                color:blueviolet;
+            }
+            .sectioner{
+                column-span: 3;
+                border: 0;
+                text-align:center;
+            }
+             img {
+                display: block;
+                margin-left: 70px;
+            }
+            body{
+                background-color:#4B4932;
+                font-family:fantasy;
+                width: 75%;
+            }
+            ol, ul, li{
+                color:#F5EA71;
+            }
